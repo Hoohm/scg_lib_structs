@@ -10,12 +10,12 @@
                 "R1": {
                     "start": 1,
                     "stop": 16
-                },
-                "umi_barcode": {
-                    "R1": {
-                        "start": 17,
-                        "stop": 28
-                    }
+                }
+            },
+            "umi_barcode": {
+                "R1": {
+                    "start": 17,
+                    "stop": 28
                 }
             }
         },
