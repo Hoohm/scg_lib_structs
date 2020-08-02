@@ -54,6 +54,10 @@ Here is a template for a new entry:
 * adapters is a list of paths pointing towards the adapters used in this protocol. The paths are relative to the folder containing the `definitions.json`
 * whitelist is a path towards the whitelisted barcode list of the protocol. The path is relative to the folder containing the `definitions.json`
 * barcode_structure_indexes defines the start and stop positions of the cell barcode and the umi barcode using numerical values. **Index starts at 1**
-* barcode_structure_string defines the start and stop positions of the cell barcode and the umi barcode using a string. `C` defines a cell barcode,  `U` defines a UMI, `N` defines a random base.
+* barcode_structure_string defines the start and stop positions of the cell barcode and the umi barcode using a string.
+    * `D` defines a cell/spot barcode
+    * `U` defines a UMI
+    * `N` defines a random base
+    * `S` defines a base from the actual sequence
 * html is a path towards the html document of the protocol. The path is relative to the folder containing the `definitions.json`
 

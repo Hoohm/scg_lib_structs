@@ -11,7 +11,7 @@ Files must be compressed with as `.gz`
 Example with the 10x v3 feature barcoding mapping file:
 
 ```
-whitelist,feature_barcoding_map
+whitelist,translation
 AAACCCAAGAAACACT,AAACCCATCAAACACT
 AAACCCAAGAAACCAT,AAACCCATCAAACCAT
 AAACCCAAGAAACCCA,AAACCCATCAAACCCA

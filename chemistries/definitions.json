@@ -4,7 +4,10 @@
         "adapters": [
             "adapters/Chromium.fa"
         ],
-        "whitelist": "whitelists/3M-febuary-2018.csv.gz",
+        "whitelist": {
+            "path": "whitelists/3M-febuary-2018.csv.gz",
+            "mapping": true
+        },
         "barcode_structure_indexes": {
             "cell_barcode": {
                 "R1": {
@@ -28,7 +31,7 @@
             }
         },
         "sequence_structure_string": {
-            "R2": "NNNNNNNNNN"
+            "R2": "NNNNNNNNNNS{1,}"
         },
         "html": "../methods_html/10xchromium3fb.html"
     }
