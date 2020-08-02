@@ -5,7 +5,7 @@
             "adapters/Chromium.fa"
         ],
         "whitelist": {
-            "path": "whitelists/3M-febuary-2018.csv.gz",
+            "path": "whitelists/3M-february-2018.csv.gz",
             "mapping": true
         },
         "barcode_structure_indexes": {
